@@ -15,6 +15,9 @@ handleUpdatedDone = event => {
     this.setState({ editing: false})
   }
 }
+componentWillUnmount() {
+  console.log("Cleaning up...")
+}
   render () {
   const completedStyle = {
     fontStyle: "italic",
@@ -42,7 +45,6 @@ handleUpdatedDone = event => {
       />
       <button onClick={() => this.props.deleteTodoProps(id)}>Delete</button>
         <span style={completed ? completedStyle : null}>{title}</span>
-        ...
         </div>
         <input 
         type="text" 
