@@ -1,13 +1,19 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 50;
   padding: 0;
+  font-size: 1em;
+  margin-block-start: 1mm;
+  margin-block-end: 6mm;
+  margin-inline-start: 8mm;
+  margin-inline-end: 5mm;
+
 }
 
 body {
-  font-family: "Segoe UI", Arial, sans-serif;
-  line-height: 1.4;
-  color: #444;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.8;
+  color: rgb(24, 22, 22);
   background: #fff;
   height: 100vh;
 }
@@ -48,7 +54,7 @@ body {
 }
 
 .input-submit {
-  flex: 2.8;
+  flex: 3;
   border: none;
   background: #d7d7d7;
   color: #5b5b5b;
@@ -60,10 +66,10 @@ body {
 
 .input-text,
 .input-submit {
-  height: 55px;
+  height: 40px;
   outline: none;
-  box-shadow: 0 1px 6px 0 rgba(168, 167, 167, 0.28);
-  border-radius: calc(0.5 * 100px);
+  box-shadow: 0 9px 6px 0 rgba(196, 197, 20, 0.28);
+  border-radius: calc(0.7 * 60px);
 }
 .active-link {
   color: orangered;
@@ -75,8 +81,8 @@ body {
 
 .navBar button {
   position: fixed;
-  left: 40px;
-  top: 40px;
+  left: -40px;
+  top: 30px;
   z-index: 10;
   cursor: pointer;
   background: transparent;;
@@ -88,7 +94,7 @@ body {
   list-style: none;
   position: fixed; 
   top: 0;
-  background: darkcyan;
+  background: rgb(172, 184, 183);
   left: 0;
   bottom: 0;
   height: 100vh;
@@ -106,7 +112,7 @@ a {
   display: block;
   padding: 20px 120px;
   text-decoration: none;
-  color: #ffe23f;
+  color: #3c828f;
   text-transform: uppercase;
   font-weight: bold;
 }
