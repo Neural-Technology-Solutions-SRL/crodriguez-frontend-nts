@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/crodriguez-frontend-nts/static/css/main.e5490141.css",
+    "main.js": "/crodriguez-frontend-nts/static/js/main.c470c102.js",
+    "index.html": "/crodriguez-frontend-nts/index.html",
+    "main.e5490141.css.map": "/crodriguez-frontend-nts/static/css/main.e5490141.css.map",
+    "main.c470c102.js.map": "/crodriguez-frontend-nts/static/js/main.c470c102.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5490141.css",
+    "static/js/main.c470c102.js"
+  ]
+}
