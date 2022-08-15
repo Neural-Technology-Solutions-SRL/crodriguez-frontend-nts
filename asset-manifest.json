@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/crodriguez-frontend-nts/static/css/main.e5490141.css",
-    "main.js": "/crodriguez-frontend-nts/static/js/main.c470c102.js",
+    "main.css": "/crodriguez-frontend-nts/static/css/main.5c31b821.css",
+    "main.js": "/crodriguez-frontend-nts/static/js/main.dd873b43.js",
     "index.html": "/crodriguez-frontend-nts/index.html",
-    "main.e5490141.css.map": "/crodriguez-frontend-nts/static/css/main.e5490141.css.map",
-    "main.c470c102.js.map": "/crodriguez-frontend-nts/static/js/main.c470c102.js.map"
+    "main.5c31b821.css.map": "/crodriguez-frontend-nts/static/css/main.5c31b821.css.map",
+    "main.dd873b43.js.map": "/crodriguez-frontend-nts/static/js/main.dd873b43.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5490141.css",
-    "static/js/main.c470c102.js"
+    "static/css/main.5c31b821.css",
+    "static/js/main.dd873b43.js"
   ]
 }
