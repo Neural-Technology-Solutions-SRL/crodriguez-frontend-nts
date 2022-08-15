@@ -40,7 +40,7 @@ const InputTodo = (props) => {
       <IconContext.Provider
         value={{
           color: "darkcyan",
-          style: { fontSize: "20px", color: "#ff0000" },
+          style: { fontSize: "20px", color: "#87ceeb" },
           className: "submit-iconn",
         }}
       >

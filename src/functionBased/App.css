@@ -48,7 +48,7 @@ body {
 }
 
 .input-submit {
-  flex: 2.5;
+  flex: 2.8;
   border: none;
   background: #d7d7d7;
   color: #5b5b5b;
@@ -60,7 +60,7 @@ body {
 
 .input-text,
 .input-submit {
-  height: 45px;
+  height: 55px;
   outline: none;
   box-shadow: 0 1px 6px 0 rgba(168, 167, 167, 0.28);
   border-radius: calc(0.5 * 100px);
@@ -86,7 +86,7 @@ body {
 .menuNav {
   overflow-y: scroll;
   list-style: none;
-  position: fixed;
+  position: fixed; 
   top: 0;
   background: darkcyan;
   left: 0;
@@ -104,9 +104,9 @@ body {
 
 a {
   display: block;
-  padding: 10px 40px;
+  padding: 20px 120px;
   text-decoration: none;
-  color: #3fffd2;
+  color: #ffe23f;
   text-transform: uppercase;
   font-weight: bold;
 }
